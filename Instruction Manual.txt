@@ -1,0 +1,17 @@
+Instruction Manual:
+
+Step 1: Open one terminal for the server.
+Step 2: Using the 'cd' command, navigate to the folder where the project is located.
+Step 3: Run the server.py script by doing the following:
+		python server.py
+
+Step 4: Open up at least 2 new terminals for the clients. You may open up to ten as the servers
+	allows you to have up to ten people in the chat room.
+Step 5: Using the 'cd' commmand, navigate to the folder where the project is located.
+Step 6: Run the client.py script by doing the following:
+		python client.py
+
+Step 7: Choose an alias or username when prompted to.
+Step 8: Repeat steps 4-7 for the second client or for additional clients.
+Step 9: Type in a message from one of the client terminals. The message entered
+	should be shown to all the other clients.
