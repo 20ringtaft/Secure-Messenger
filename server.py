@@ -39,7 +39,7 @@ def receive():
     while True:
         print("server connection established")
         client, address = server.accept()
-        print(f'connection is established with {str{address}}')
+        print(f'connection is established with {str(address)}')
         client.send('alias?'.encode('utf-8'))
         alias = client.recv(1024)
         aliases.append(alias)
