@@ -35,7 +35,7 @@ def server():
                 SOCKET_LIST.append(sockfd)
                 print ("Client (%s, %s) connected" % addr)
                 
-                broadcast(server_socket, sockfd, "[%s:%s] entered the chat room \n % addr")
+                broadcast(server_socket, sockfd, "[%s:%s] entered the chat room \n" % addr)
                 
             else:
                 try: 
