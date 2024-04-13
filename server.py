@@ -15,7 +15,7 @@ PORT = 9009
 
 def server():
     #using a stream is more secure than a datagram
-    server_socket = socket.socket(socket.AF_INET, socket.SOCK_STERAM)
+    server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
     server_socket.bind((HOST,PORT))
     #wait for 10 possible clients
